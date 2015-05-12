@@ -5,49 +5,51 @@ using System.Collections.Generic;
 public class PlayerMovementScript : MonoBehaviour {
 
     public float movementSpeed;
-    public float jumpVelocity;
-    public float groundDistance;
+    public Transform groundCheck;
+    public PlayerJetpackScript jetpack;
+    public float sideCastDist;
 
     private bool grounded = false;
     private Rigidbody2D rb;
-    private Vector2 rayDir;
-    private Vector2 hitPos;
+    private int groundCollisions;
     
 	// Use this for initialization
 	void Start () 
     {
         rb = GetComponent<Rigidbody2D>();
  	}
-	
-	void FixedUpdate () 
-    {
-        rayDir = Quaternion.AngleAxis(15f * Input.GetAxis("Horizontal"), Vector3.forward) * -Vector2.up;
-        
-        var hit = Physics2D.Raycast(transform.position, rayDir, groundDistance);
 
-        if (hit) { hitPos = hit.point; }
- 
-        if (hit) { grounded = hit.collider.gameObject.tag == "Ground" && rb.velocity.y <= 0f; }
-        else     { grounded = false; }
-	}
-
-    void Update()
+    void Update ()
     {
-        if (Input.GetButton("Horizontal"))
+        if (Physics2D.Linecast(transform.position, transform.position + Vector2.right * Mathf.Sign(Input.GetAxis("Horizontal")) * sideCastDist))
         {
-            rb.velocity = new Vector2(movementSpeed * Input.GetAxis("Horizontal"),
-                                      rb.velocity.y);
+            Debug.Log("test");
         }
-        if (grounded && Input.GetButtonDown("Jump"))
+        else
         {
-            rb.velocity = new Vector2(rb.velocity.x,
-                                      rb.velocity.y + jumpVelocity);
+            Debug.Log("test2");
+            transform.position += Vector3.right * Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime;
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            groundCollisions++;
+        }
+    }
+
+    void OnCollisionLeave2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Ground")
+        {
+            groundCollisions--;
         }
     }
 
     void OnDrawGizmos()
     {
-        Gizmos.DrawSphere(transform.position + (Vector3)rayDir * groundDistance, 0.1f);
-        Gizmos.DrawSphere(hitPos, 0.2f);
+        Gizmos.DrawSphere(transform.position + Vector3.right * Mathf.Sign(Input.GetAxis("Horizontal")) * sideCastDist, 0.05f);
     }
 }
