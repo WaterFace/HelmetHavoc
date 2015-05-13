@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class PlayerMovementScript : MonoBehaviour {
 
     public float movementSpeed;
+    public float maxSpeed;
     public Transform groundCheck;
     public PlayerJetpackScript jetpack;
     public float sideCastDist;
@@ -21,35 +22,17 @@ public class PlayerMovementScript : MonoBehaviour {
 
     void Update ()
     {
-        if (Physics2D.Linecast(transform.position, transform.position + Vector2.right * Mathf.Sign(Input.GetAxis("Horizontal")) * sideCastDist))
-        {
-            Debug.Log("test");
-        }
-        else
-        {
-            Debug.Log("test2");
-            transform.position += Vector3.right * Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime;
-        }
-    }
+        grounded = Physics2D.Linecast(transform.position, groundCheck.position);
 
-    void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Ground")
+        if (grounded)
         {
-            groundCollisions++;
-        }
-    }
-
-    void OnCollisionLeave2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Ground")
-        {
-            groundCollisions--;
+            rb.AddForce(Vector2.right * Input.GetAxis("Horizontal") * movementSpeed, ForceMode2D.Impulse);
+            rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed), rb.velocity.y);
         }
     }
 
     void OnDrawGizmos()
     {
-        Gizmos.DrawSphere(transform.position + Vector3.right * Mathf.Sign(Input.GetAxis("Horizontal")) * sideCastDist, 0.05f);
+        Gizmos.DrawRay(transform.position, groundCheck.position);
     }
 }
