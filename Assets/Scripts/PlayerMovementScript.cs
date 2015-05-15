@@ -9,8 +9,8 @@ public class PlayerMovementScript : MonoBehaviour {
     public Transform groundCheck;
     public PlayerJetpackScript jetpack;
     public float sideCastDist;
+    public float jumpSpeed;
 
-    private bool grounded = false;
     private Rigidbody2D rb;
     private int groundCollisions;
     
@@ -22,17 +22,19 @@ public class PlayerMovementScript : MonoBehaviour {
 
     void Update ()
     {
-        grounded = Physics2D.Linecast(transform.position, groundCheck.position);
+        rb.AddForce(Vector2.right * Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime, ForceMode2D.Impulse);
 
-        if (grounded)
+        if (jetpack.grounded)
         {
-            rb.AddForce(Vector2.right * Input.GetAxis("Horizontal") * movementSpeed, ForceMode2D.Impulse);
-            rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed), rb.velocity.y);
-        }
-    }
+            rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed), rb.velocity.y), Time.deltaTime);
 
-    void OnDrawGizmos()
-    {
-        Gizmos.DrawRay(transform.position, groundCheck.position);
+            if (Input.GetButtonDown("Jump"))
+            {
+                rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
+                jetpack.checkGround = false;
+                jetpack.grounded = false;
+                Debug.Log("Jumped");
+            }
+        }
     }
 }

@@ -6,19 +6,19 @@ public class PlayerJetpackScript : MonoBehaviour {
     private Vector2 mouseWorldPos { get { return Camera.main.ScreenToWorldPoint(Input.mousePosition); } }
     private Vector2 direction { get { return ((Vector3)mouseWorldPos - transform.position).normalized; } }
     private bool ignoreGround = false;
-    private bool grounded;
     private Rigidbody2D rb;
     private int blockingMask;
     private float charge;
-    private bool checkGround;
     
     public Transform groundCheck;
     public ChargeBarScript chargeBar;
+    public PlayerMovementScript player;
     public float minFlySpeed;
     public float maxFlySpeed;
     public float chargeSpeed;
     
-    [HideInInspector] public bool flying;
+    internal bool grounded;
+    internal bool checkGround;
 
 	void Start()
     {
@@ -29,6 +29,7 @@ public class PlayerJetpackScript : MonoBehaviour {
 	void Update()
     {
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, blockingMask) && checkGround;
+        if (!grounded) { checkGround = true; }
 
         if (Input.GetButton("Fire1"))
         {
@@ -41,8 +42,10 @@ public class PlayerJetpackScript : MonoBehaviour {
 
         if (Input.GetButtonUp("Fire1"))
         {
-            rb.AddForce(direction * Mathf.Lerp(minFlySpeed, maxFlySpeed, charge), ForceMode2D.Impulse);
+            rb.AddForce(direction * Mathf.Lerp(minFlySpeed, maxFlySpeed, charge), ForceMode2D.Impulse); //Mathf.Lerp(minFlySpeed, maxFlySpeed, charge)
             charge = 0f;
+            checkGround = false;
+            grounded = false;
         }
 
         chargeBar.gameObject.SetActive(!(charge <= 0f));
