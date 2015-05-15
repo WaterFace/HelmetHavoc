@@ -26,7 +26,10 @@ public class PlayerMovementScript : MonoBehaviour {
 
         if (jetpack.grounded)
         {
-            rb.velocity = Vector2.Lerp(rb.velocity, new Vector2(Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed), rb.velocity.y), Time.deltaTime);
+            rb.velocity = Vector2.Lerp(rb.velocity,
+                                       new Vector2(Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed),
+                                                   rb.velocity.y),
+                                       Time.deltaTime);
 
             if (Input.GetButtonDown("Jump"))
             {
