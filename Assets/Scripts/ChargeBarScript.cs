@@ -3,7 +3,17 @@ using System.Collections;
 
 public class ChargeBarScript : MonoBehaviour {
 
-    public Transform full;
+    public Transform scalar;
+    public GameObject full;
+    public Color color0;
+    public Color color1;
+
+    private Material mat;
+
+    void Start()
+    {
+        mat = full.GetComponent<MeshRenderer>().material;
+    }
 
     public void SetAngle(float angle)
     {
@@ -13,8 +23,10 @@ public class ChargeBarScript : MonoBehaviour {
 
     public void SetValue(float value)
     {
-        full.localScale = new Vector3(value,
-                                      full.localScale.y,
-                                      full.localScale.z);
+        scalar.localScale = new Vector3(value,
+                                      scalar.localScale.y,
+                                      scalar.localScale.z);
+
+        mat.color = Color.Lerp(color0, color1, value);
     }
 }
