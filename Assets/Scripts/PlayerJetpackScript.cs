@@ -6,21 +6,26 @@ public class PlayerJetpackScript : MonoBehaviour {
     private Vector2 mouseWorldPos { get { return Camera.main.ScreenToWorldPoint(Input.mousePosition); } }
     private Vector2 direction { get { return ((Vector3)mouseWorldPos - transform.position).normalized; } }
     private Rigidbody2D rb;
-    private int blockingMask;
     private float charge;
     private Animator anim;
     private bool prevGrounded;
     private bool flying;
     private bool hasJumped = false;
-    
+
+    [Header("References")]
     public Transform groundCheck;
     public GameObject jumpParticle;
     public GameObject jumpTrail;
     public ChargeBarScript chargeBar;
     public CameraShake camera;
+    public PauseMenu menu;
+
+    [Header("Charge Values")]
     public float minFlySpeed;
     public float maxFlySpeed;
     public float chargeSpeed;
+
+    [Header("Camera Shake")]
     public float minShake;
     public float maxShake;
     public float minShakeDuration;
@@ -32,12 +37,16 @@ public class PlayerJetpackScript : MonoBehaviour {
 	void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        //blockingMask = 1; //<< LayerMask.NameToLayer("Ground");
         anim = GetComponent<Animator>();
 	}
 	
 	void Update()
     {
+        if (menu.paused)
+        {
+            return;
+        }
+
         RaycastHit2D hit;
         if (checkGround)
         {

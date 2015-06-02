@@ -11,6 +11,7 @@ public class PlayerMovementScript : MonoBehaviour {
     public float jumpSpeed;
     public float speedDecay;
     public Transform sprite;
+    public PauseMenu menu;
 
     private Rigidbody2D rb;
     private int groundCollisions;
@@ -28,6 +29,11 @@ public class PlayerMovementScript : MonoBehaviour {
 
     void Update ()
     {
+        if (menu.paused)
+        {
+            return;
+        }
+
         if (Input.GetButton("Horizontal"))
         {
             rb.AddForce(Vector2.right * Input.GetAxis("Horizontal") * movementSpeed * Time.deltaTime, ForceMode2D.Impulse);
@@ -41,12 +47,7 @@ public class PlayerMovementScript : MonoBehaviour {
         {
             if (Input.GetButtonDown("Jump"))
             {
-                rb.AddForce(Vector2.up * jumpSpeed, ForceMode2D.Impulse);
-                jetpack.checkGround = false;
-                jetpack.grounded = false;
-
-                anim.SetTrigger("Fly");
-                anim.SetBool("Land", false);
+                Jump(jumpSpeed);
             }
         }
 
@@ -67,5 +68,15 @@ public class PlayerMovementScript : MonoBehaviour {
         anim.SetBool("Left", facingLeft);
 
         anim.SetInteger("HorizontalVel", animVel);
+    }
+
+    public void Jump(float force)
+    {
+        rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
+        jetpack.checkGround = false;
+        jetpack.grounded = false;
+
+        anim.SetTrigger("Fly");
+        anim.SetBool("Land", false);
     }
 }
