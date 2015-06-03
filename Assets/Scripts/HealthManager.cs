@@ -18,7 +18,7 @@ public class HealthManager : MonoBehaviour {
 
     public void ModHealth(float amount)
     {
-        _health += amount;
+        _health = Mathf.Clamp(_health + amount, 0f, maxHealth);
     }
     
 }

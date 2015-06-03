@@ -11,6 +11,8 @@ public class PlayerJetpackScript : MonoBehaviour {
     private bool prevGrounded;
     private bool flying;
     private bool hasJumped = false;
+    private PlayerAudio audio;
+    private bool charging;
 
     [Header("References")]
     public Transform groundCheck;
@@ -24,6 +26,8 @@ public class PlayerJetpackScript : MonoBehaviour {
     public float minFlySpeed;
     public float maxFlySpeed;
     public float chargeSpeed;
+    public float minHitDamage;
+    public float maxHitDamage;
 
     [Header("Camera Shake")]
     public float minShake;
@@ -38,11 +42,12 @@ public class PlayerJetpackScript : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        audio = GetComponent<PlayerAudio>();
 	}
 	
 	void Update()
     {
-        if (menu.paused)
+        if (Time.timeScale == 0f || !GetComponent<HealthManager>().isAlive)
         {
             return;
         }
@@ -73,16 +78,29 @@ public class PlayerJetpackScript : MonoBehaviour {
 
         if (Input.GetButton("Fire1") && !hasJumped)
         {
+            if (charging == false)
+            {
+                audio.StartCharge();
+            }
+
+            charging = true;
             charge += chargeSpeed * Time.deltaTime;
         }
 
+        //Mathf.Log10(charge) / 2f + 5f / 3f * Mathf.Log10(charge + 1f) + 0.5f, 0f, 1f
+
+        var y = -Mathf.Pow(2f, -5f * charge) + 1.031f; //trust me 
+
         charge = Mathf.Clamp(charge, 0.0f, 1.0f);
         chargeBar.SetAngle(Mathf.Rad2Deg*Mathf.Atan2(direction.y, direction.x));
-        chargeBar.SetValue(charge);
+        chargeBar.SetValue(y);
 
         if (Input.GetButtonUp("Fire1") && !hasJumped)
         {
-            rb.AddForce(direction * Mathf.Lerp(minFlySpeed, maxFlySpeed, charge), ForceMode2D.Impulse);
+            audio.Launch(1f);
+            audio.StopCharge();
+            charging = false;
+            rb.AddForce(direction * Mathf.Lerp(minFlySpeed, maxFlySpeed, y), ForceMode2D.Impulse);
             charge = 0f;
             checkGround = false;
 
@@ -96,6 +114,19 @@ public class PlayerJetpackScript : MonoBehaviour {
             Destroy(ps, ps.GetComponent<ParticleSystem>().duration);
         }
 
+        if (y >= 1f)
+        {
+            GetComponent<PlayerHealthScript>().Damage(30f);
+            charge = 0f;
+            audio.Explode(1f);
+            charging = false;
+
+            var ps = Instantiate<GameObject>(jumpParticle);
+            ps.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.y - 2f);
+            ps.GetComponent<ParticleSystem>().startColor = new Color(1f, 0.313725f, 0.04f);
+            Destroy(ps, ps.GetComponent<ParticleSystem>().duration);
+        }
+
         if (!grounded) { checkGround = true; }
 
         chargeBar.gameObject.SetActive(!(charge <= 0f));
@@ -103,11 +134,14 @@ public class PlayerJetpackScript : MonoBehaviour {
 
     void Hit(GameObject target)
     {
-        target.SendMessage("HitByPlayer", SendMessageOptions.DontRequireReceiver);
-        flying = false;
+        audio.Impact(1f);
 
         float t = Unlerp(minFlySpeed, maxFlySpeed, rb.velocity.magnitude);
 
+        target.SendMessage("HitByPlayer", Mathf.Lerp(minHitDamage, maxHitDamage, t) * GetComponentInChildren<Helmet>().damageMult, SendMessageOptions.DontRequireReceiver);
+        Debug.Log(string.Format("Dealt {0} damage", Mathf.Lerp(minHitDamage, maxHitDamage, t) * GetComponentInChildren<Helmet>().damageMult), this);
+        flying = false;
+        
         camera.StartShaking(Mathf.Lerp(minShakeDuration, maxShakeDuration, t),
                             Mathf.Lerp(minShake, maxShake, t));
     }

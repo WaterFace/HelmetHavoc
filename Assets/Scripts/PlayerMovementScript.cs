@@ -29,7 +29,7 @@ public class PlayerMovementScript : MonoBehaviour {
 
     void Update ()
     {
-        if (menu.paused)
+        if (Time.timeScale == 0f || !GetComponent<HealthManager>().isAlive)
         {
             return;
         }

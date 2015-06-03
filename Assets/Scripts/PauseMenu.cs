@@ -5,21 +5,28 @@ public class PauseMenu : MonoBehaviour
 {
     internal bool paused;
 
-    public GameObject menu;
+    [HideInInspector] public bool isAlive;
+
+    public GameObject pauseMenu;
 
     void Start()
     {
-
+        isAlive = false;
     }
 
     void Update()
     {
+        if (!isAlive)
+        {
+            return;
+        }
+
         if (Input.GetButtonUp("Cancel"))
         {
             paused = !paused;
         }
 
-        menu.SetActive(paused);
+        pauseMenu.SetActive(paused);
 
         if (paused)
         {

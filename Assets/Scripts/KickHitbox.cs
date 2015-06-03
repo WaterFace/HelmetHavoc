@@ -19,6 +19,8 @@ public class KickHitbox : MonoBehaviour {
 
         if (other.gameObject.tag == "Player" && canDamage)
         {
+            GetComponentInParent<EnemySound>().Impact(1f);
+
             other.SendMessage("Damage", kickDamage);
             other.SendMessage("Kicked", kickForce * Mathf.Sign(other.transform.position.x - transform.position.x));
 

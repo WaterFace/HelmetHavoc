@@ -11,6 +11,7 @@ public class EnemyScript : MonoBehaviour {
     private Rigidbody2D rb;
     private bool facingLeft = true;
     private bool grounded;
+    private EnemySound audio;
 
     [HideInInspector] public Transform player;
 
@@ -43,6 +44,8 @@ public class EnemyScript : MonoBehaviour {
 
 	void Start () 
     {
+        audio = GetComponent<EnemySound>();
+
         healthManager = GetComponent<HealthManager>();
         healthManager.Reset();
 
@@ -143,16 +146,18 @@ public class EnemyScript : MonoBehaviour {
         anim.SetBool("Left", facingLeft);
     }
 
-    void HitByPlayer()
+    void HitByPlayer(float damage)
     {
-        healthManager.ModHealth(-10f);
+        audio.Hurt(1f);
+
+        healthManager.ModHealth(-damage);
         transform.GetComponentInChildren<SpriteRenderer>().color = baseColour * Color.Lerp(Color.red, Color.white, healthManager.percent);
 
         if (!healthManager.isAlive)
         {
             state = State.DEAD;
 
-            healthManager.ModHealth(-10f);
+            healthManager.ModHealth(-damage);
 
             var rb = GetComponent<Rigidbody2D>();
             rb.fixedAngle = false;
