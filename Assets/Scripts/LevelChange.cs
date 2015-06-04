@@ -33,7 +33,6 @@ public class LevelChange : MonoBehaviour {
             doOnce = false;
             SaveLoad.SetProgress(level);
             Debug.Log("Loading level: " + nextLevel, this);
-            Debug.Log(string.Format("Progress: {0}", SaveLoad.progress.progress), this);
             source.Play();
             StartCoroutine(DelayLoad());
         }

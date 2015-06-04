@@ -32,6 +32,7 @@ public class SaveLoad : MonoBehaviour {
             var bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + "/save.rm", FileMode.Open);
             SaveLoad.progress = (Progress)bf.Deserialize(file);
+            file.Close();
         }
     }
 }
