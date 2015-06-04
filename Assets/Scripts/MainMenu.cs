@@ -12,4 +12,9 @@ public class MainMenu : MonoBehaviour {
     {
         Application.LoadLevel("level1");
     }
+
+    public void Menu()
+    {
+        Application.LoadLevel("MainMenu");
+    }
 }

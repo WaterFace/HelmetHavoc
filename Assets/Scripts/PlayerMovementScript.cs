@@ -19,12 +19,14 @@ public class PlayerMovementScript : MonoBehaviour {
     private int animVel;
     private float direction;
     private bool facingLeft;
+    private PlayerAudio audio;
     
 	// Use this for initialization
 	void Start () 
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        audio = GetComponent<PlayerAudio>();
  	}
 
     void Update ()
@@ -48,6 +50,7 @@ public class PlayerMovementScript : MonoBehaviour {
             if (Input.GetButtonDown("Jump"))
             {
                 Jump(jumpSpeed);
+                audio.Jump(1f);
             }
         }
 

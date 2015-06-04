@@ -8,6 +8,7 @@ public class PlayerAudio : MonoBehaviour {
     public AudioClip charge;
     public AudioClip launch;
     public AudioClip impact;
+    public AudioClip jump;
 
     private AudioSource source;
     private AudioSource chargeSource;
@@ -51,6 +52,11 @@ public class PlayerAudio : MonoBehaviour {
     public void Impact(float volume)
     {
         PlaySound(impact, volume);
+    }
+
+    public void Jump(float volume)
+    {
+        PlaySound(jump, volume);
     }
 
     public void StartCharge()

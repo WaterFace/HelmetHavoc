@@ -4,6 +4,7 @@ using System.Collections;
 public class Food : MonoBehaviour {
 
     public float healAmount;
+    public AudioClip clip;
 
     void OnCollisionEnter2D(Collision2D other)
     {
@@ -14,6 +15,7 @@ public class Food : MonoBehaviour {
             if (health.percent < 1f)
             {
                 health.ModHealth(healAmount);
+                AudioSource.PlayClipAtPoint(clip, transform.position);
                 Destroy(this.gameObject);
             }
         }
