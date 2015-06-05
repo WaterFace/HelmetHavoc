@@ -1,34 +1,946 @@
 Initialize engine version: 5.0.1f1 (5a2e8fe35a68)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 460M          (ID=0xdd1)
-    Vendor:   NVIDIA
-    VRAM:     1488 MB
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: ATI Radeon HD 3450 - Dell Optiplex (ID=0x95c5)
+    Vendor:   ATI
+    VRAM:     249 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.133 seconds
-desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+Platform assembly: E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.091 seconds
+desktop: 1280x1024 60Hz; virtual: 1280x1024 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-Platform assembly: K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: K:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\System.dll (this message is harmless)
-Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1118 -> priority: 1 
-  Thread -> id: 21f8 -> priority: 1 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.486650 ms
+Platform assembly: E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Unity\HelmetHavoc\Bin\RocketMan_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1a08 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.703012 ms
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 681.
-Total: 0.500325 ms (FindLiveObjects: 0.102630 ms CreateObjectMapping: 0.044131 ms MarkObjects: 0.318155 ms  DeleteObjects: 0.033868 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 257.
+Total: 0.248769 ms (FindLiveObjects: 0.019504 ms CreateObjectMapping: 0.015740 ms MarkObjects: 0.204627 ms  DeleteObjects: 0.004790 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.699429 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 626.
+Total: 0.364428 ms (FindLiveObjects: 0.043115 ms CreateObjectMapping: 0.036613 ms MarkObjects: 0.252533 ms  DeleteObjects: 0.027717 ms)
+
+2.571429
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+2.571429
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at LevelChange.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at LevelChange.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 10.14924 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -30 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: explode0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 11.71514 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -30 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: explode0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Loading level: 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Loading level: level2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Level '' (-1) couldn't be loaded because it has not been added to the build settings.
+To add a level to the build settings use the menu File->Build Settings...
+ 
+(Filename:  Line: 272)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.932458 ms
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 703.
+Total: 0.457161 ms (FindLiveObjects: 0.048248 ms CreateObjectMapping: 0.050985 ms MarkObjects: 0.319602 ms  DeleteObjects: 0.032849 ms)
+
+2.571429
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at LevelChange.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 12.8377 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 9.803365 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7.242931 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 9.651691 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -10 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -10 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -10 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 8.88476 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -10 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: 5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 13.40858 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 13.35413 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -10 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7.820001 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 11.11315 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 11.818 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Loading level: level3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.001922 ms
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 809.
+Total: 0.586850 ms (FindLiveObjects: 0.040035 ms CreateObjectMapping: 0.171435 ms MarkObjects: 0.335685 ms  DeleteObjects: 0.035587 ms)
+
+2.571429
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at LevelChange.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at HelmetPickup.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 10.37984 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 12.21848 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 8.296407 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 14.02864 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 11.17512 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 15 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 8.371591 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 9.250353 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 9.417691 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7.756124 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
 UnityException: GameObject has undefined tag!
   at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
@@ -44,7 +956,65 @@ Playing sound: impact0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
-Dealt 12.52881 damage
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7.880373 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 8.172773 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
@@ -56,7 +1026,1029 @@ Playing sound: impact0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
-Dealt 11.66976 damage
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 10.76504 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 11.31924 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Loading level: level4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.227423 ms
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 767.
+Total: 0.464689 ms (FindLiveObjects: 0.039009 ms CreateObjectMapping: 0.048590 ms MarkObjects: 0.335000 ms  DeleteObjects: 0.037298 ms)
+
+2.571429
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at LevelChange.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at HelmetPickup.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 21.46853 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -10 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 10.81699 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 21.10641 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 10.5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 15.57212 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 20.93041 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 10.5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 22.5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 14.11146 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -20 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 12.85791 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 17.48063 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -20 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 22.5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -20 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -7
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 12.76186 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 20.38709 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 16.51942 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Loading level: level5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.214762 ms
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 914.
+Total: 0.485904 ms (FindLiveObjects: 0.043799 ms CreateObjectMapping: 0.052354 ms MarkObjects: 0.355531 ms  DeleteObjects: 0.030454 ms)
+
+2.571429
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at LevelChange.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at HelmetPickup.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 17.69549 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 15.43021 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 17.69054 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -10 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 18.17968 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 15.7823 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 19.02567 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 22.5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 22.5 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: enemy_hurt
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Hit for -10 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Kicked with force: -5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Loading level: level6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at KickHitbox.OnTriggerEnter2D (UnityEngine.Collider2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.199706 ms
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 867.
+Total: 0.404122 ms (FindLiveObjects: 0.042088 ms CreateObjectMapping: 0.049959 ms MarkObjects: 0.272038 ms  DeleteObjects: 0.035929 ms)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at Food.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: GameObject has undefined tag!
+  at (wrapper managed-to-native) UnityEngine.GameObject:get_tag ()
+  at HelmetPickup.OnCollisionEnter2D (UnityEngine.Collision2D other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 7 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 9.050539 damage
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
@@ -80,7 +2072,15 @@ Playing sound: impact0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
-Dealt 7.75294 damage
+Dealt 7 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jump
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
@@ -92,7 +2092,25 @@ Playing sound: impact0
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
 
-Dealt 11.6871 damage
+Dealt 11.49138 damage
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: jet_launch
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Playing sound: impact0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Dealt 14.45215 damage
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebug.gen.cpp Line: 56)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.076519 ms
+
+Unloading 246 unused Assets to reduce memory usage. Loaded Objects now: 259.
+Total: 0.611487 ms (FindLiveObjects: 0.023953 ms CreateObjectMapping: 0.033534 ms MarkObjects: 0.222079 ms  DeleteObjects: 0.327814 ms)
 
